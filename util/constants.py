@@ -1,3 +1,6 @@
+# Worked on by Andy
+
+# define constants for model architecture
 BATCH_SIZE = 128
 ENCODED_VECTOR_SIZE = 300
 LSTM_SIZE = 100

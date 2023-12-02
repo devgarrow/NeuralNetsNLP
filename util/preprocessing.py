@@ -4,6 +4,8 @@ from keras.utils import pad_sequences
 
 from util.constants import ENCODED_VECTOR_SIZE
 
+# Worked on by Jess
+
 # Define a list of stopwords
 STOPWORDS = {
     'the', 'and', 'is', 'in', 'to', 'of', 'it', 'you', 'that', 'a', 'i', 'for', 'on', 'with', 'this',
@@ -94,6 +96,6 @@ def preprocess(texts):
     tokenizer = initialize_tokenizer(refined_texts)
     preprocessed_texts = vectorize(tokenizer, refined_texts)
     num_words = get_num_words(tokenizer)
-    return
+    return preprocessed_texts, tokenizer
 
 

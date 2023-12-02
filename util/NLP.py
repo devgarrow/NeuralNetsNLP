@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 from util.constants import ENCODED_VECTOR_SIZE, BATCH_SIZE, NUM_CLASSES, NUM_EPOCHS, VALIDATION_SPLIT, LSTM_SIZE, GLOVE, \
     WORD2VEC, MODEL_TYPE_CNN, MODEL_TYPE_LSTM, MODEL_TYPE_CNN_LSTM
 
-
+# Worked on by Andy, Tom, and Devynn
 class NLPModel:
     def __init__(self, word_embedding, model_type, tokenizer, embeddings):
         self.name = f'{word_embedding} and {model_type}'
